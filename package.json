@@ -1,0 +1,25 @@
+{
+  "name": "validtrace-plugin-cypress",
+  "version": "1.0.1",
+  "description": "Cypress command integration for ValidTrace.com",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liamgib/validtrace-plugin-cypress.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/liamgib/validtrace-plugin-cypress/issues"
+  },
+  "homepage": "https://github.com/liamgib/validtrace-plugin-cypress#readme",
+  "types": "dist/index.d.ts",
+  "devDependencies": {
+    "cypress": "^5.2.0"
+  }
+}
